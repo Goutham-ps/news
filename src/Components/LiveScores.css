@@ -1,0 +1,71 @@
+/* Components/LiveScores.css */
+
+.live-scores {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    text-align: center; /* Center-align the text within the live scores section */
+  }
+  
+  .live-scores h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 3.5rem;
+  }
+  
+  .scores-container {
+    display: flex;
+    justify-content: center; /* Center the score cards horizontally */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .score-card {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px; /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .live-mark {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    font-size: 0.8em;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .team-logo {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    margin: 0 5px;
+  }
+  
+  .match {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .score {
+    display: block;
+    font-size: 1.2em;
+  }
+  
